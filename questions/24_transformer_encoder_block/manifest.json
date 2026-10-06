@@ -1,0 +1,9 @@
+{
+  "id": "24",
+  "slug": "transformer-encoder-block",
+  "title": "Transformer Encoder Block",
+  "entrypoint": "transformer_encoder_block",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 32
+}

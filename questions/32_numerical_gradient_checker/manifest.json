@@ -1,0 +1,9 @@
+{
+  "id": "32",
+  "slug": "numerical-gradient-checker",
+  "title": "数值梯度检查器",
+  "entrypoint": "check_gradient",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 9
+}

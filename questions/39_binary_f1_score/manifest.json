@@ -1,0 +1,9 @@
+{
+  "id": "39",
+  "slug": "binary-f1-score",
+  "title": "二分类 F1-score",
+  "entrypoint": "binary_f1_score",
+  "library": "NumPy",
+  "difficulty": "简单",
+  "order": 7
+}

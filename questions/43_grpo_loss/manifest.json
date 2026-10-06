@@ -1,0 +1,9 @@
+{
+  "id": "43",
+  "slug": "grpo-loss",
+  "title": "GRPO Loss",
+  "entrypoint": "grpo_loss",
+  "library": "NumPy",
+  "difficulty": "困难",
+  "order": 43
+}

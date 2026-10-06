@@ -1,0 +1,9 @@
+{
+  "id": "26",
+  "slug": "encoder-decoder-block",
+  "title": "Encoder-Decoder Block",
+  "entrypoint": "encoder_decoder_block",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 34
+}

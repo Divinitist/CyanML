@@ -1,0 +1,9 @@
+{
+  "id": "21",
+  "slug": "long-context-rope",
+  "title": "长上下文 RoPE",
+  "entrypoint": "apply_scaled_rope",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 23
+}

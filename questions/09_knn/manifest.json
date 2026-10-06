@@ -1,0 +1,9 @@
+{
+  "id": "09",
+  "slug": "knn",
+  "title": "KNN",
+  "entrypoint": "knn_predict",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 15
+}

@@ -1,0 +1,9 @@
+{
+  "id": "08",
+  "slug": "conv2d",
+  "title": "Conv2D",
+  "entrypoint": "conv2d",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 14
+}

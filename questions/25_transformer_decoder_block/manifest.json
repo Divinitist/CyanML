@@ -1,0 +1,9 @@
+{
+  "id": "25",
+  "slug": "transformer-decoder-block",
+  "title": "Transformer Decoder Block",
+  "entrypoint": "transformer_decoder_block",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 33
+}

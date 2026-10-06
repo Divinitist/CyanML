@@ -1,0 +1,9 @@
+{
+  "id": "11",
+  "slug": "kmeans",
+  "title": "K-Means",
+  "entrypoint": "kmeans",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 18
+}

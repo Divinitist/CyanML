@@ -1,0 +1,9 @@
+{
+  "id": "40",
+  "slug": "gae",
+  "title": "广义优势估计 GAE",
+  "entrypoint": "generalized_advantage_estimation",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 40
+}

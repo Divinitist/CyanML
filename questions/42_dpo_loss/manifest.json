@@ -1,0 +1,9 @@
+{
+  "id": "42",
+  "slug": "dpo-loss",
+  "title": "DPO Loss",
+  "entrypoint": "dpo_loss",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 42
+}

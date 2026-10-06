@@ -1,0 +1,9 @@
+{
+  "id": "06",
+  "slug": "adamw-update",
+  "title": "AdamW 更新",
+  "entrypoint": "adamw_update",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 12
+}

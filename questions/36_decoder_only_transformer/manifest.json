@@ -1,0 +1,9 @@
+{
+  "id": "36",
+  "slug": "decoder-only-transformer",
+  "title": "Decoder-only Transformer",
+  "entrypoint": "decoder_only_transformer",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 36
+}

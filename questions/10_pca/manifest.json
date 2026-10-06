@@ -1,0 +1,9 @@
+{
+  "id": "10",
+  "slug": "pca",
+  "title": "PCA",
+  "entrypoint": "pca",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 17
+}

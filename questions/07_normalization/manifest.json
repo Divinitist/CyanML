@@ -1,0 +1,9 @@
+{
+  "id": "07",
+  "slug": "normalization",
+  "title": "归一化层",
+  "entrypoint": "normalization",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 11
+}

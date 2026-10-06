@@ -1,0 +1,9 @@
+{
+  "id": "02",
+  "slug": "linear-regression-step",
+  "title": "线性回归",
+  "entrypoint": "linear_regression_step",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 1
+}

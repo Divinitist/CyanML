@@ -1,0 +1,9 @@
+{
+  "id": "15",
+  "slug": "multi-query-attention",
+  "title": "Multi-Query Attention",
+  "entrypoint": "multi_query_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 28
+}

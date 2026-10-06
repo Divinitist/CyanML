@@ -1,0 +1,9 @@
+{
+  "id": "12",
+  "slug": "gmm",
+  "title": "GMM",
+  "entrypoint": "gmm_em",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 19
+}

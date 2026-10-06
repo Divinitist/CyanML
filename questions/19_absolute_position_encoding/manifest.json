@@ -1,0 +1,9 @@
+{
+  "id": "19",
+  "slug": "absolute-position-encoding",
+  "title": "绝对位置编码",
+  "entrypoint": "add_sinusoidal_position_encoding",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 21
+}

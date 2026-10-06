@@ -1,0 +1,9 @@
+{
+  "id": "35",
+  "slug": "dropout",
+  "title": "Dropout",
+  "entrypoint": "dropout",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 10
+}

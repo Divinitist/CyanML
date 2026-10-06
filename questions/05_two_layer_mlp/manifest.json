@@ -1,0 +1,9 @@
+{
+  "id": "05",
+  "slug": "two-layer-mlp",
+  "title": "两层 MLP",
+  "entrypoint": "two_layer_mlp",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 6
+}

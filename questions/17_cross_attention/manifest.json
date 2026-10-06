@@ -1,0 +1,9 @@
+{
+  "id": "17",
+  "slug": "cross-attention",
+  "title": "Cross Attention",
+  "entrypoint": "cross_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 27
+}

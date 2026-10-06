@@ -1,0 +1,9 @@
+{
+  "id": "33",
+  "slug": "linear-backward",
+  "title": "Linear 完整 backward",
+  "entrypoint": "linear_forward_backward",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 2
+}

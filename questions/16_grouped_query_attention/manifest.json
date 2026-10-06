@@ -1,0 +1,9 @@
+{
+  "id": "16",
+  "slug": "grouped-query-attention",
+  "title": "Grouped-Query Attention",
+  "entrypoint": "grouped_query_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 29
+}

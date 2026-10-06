@@ -1,0 +1,9 @@
+{
+  "id": "20",
+  "slug": "rope",
+  "title": "RoPE",
+  "entrypoint": "apply_rope",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 22
+}

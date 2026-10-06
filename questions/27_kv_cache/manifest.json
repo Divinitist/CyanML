@@ -1,0 +1,9 @@
+{
+  "id": "27",
+  "slug": "kv-cache",
+  "title": "通用 KV Cache",
+  "entrypoint": "kv_cache_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 35
+}

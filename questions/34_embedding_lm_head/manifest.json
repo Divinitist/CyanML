@@ -1,0 +1,9 @@
+{
+  "id": "34",
+  "slug": "embedding-lm-head",
+  "title": "Embedding + LM Head",
+  "entrypoint": "embedding_lm_head",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 20
+}

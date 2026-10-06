@@ -1,0 +1,9 @@
+{
+  "id": "38",
+  "slug": "binary-auc",
+  "title": "二分类 AUC",
+  "entrypoint": "binary_auc",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 8
+}

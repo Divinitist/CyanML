@@ -1,0 +1,9 @@
+{
+  "id": "01",
+  "slug": "softmax-cross-entropy",
+  "title": "Softmax 与交叉熵",
+  "entrypoint": "softmax_cross_entropy",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 4
+}

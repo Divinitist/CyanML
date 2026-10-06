@@ -1,0 +1,9 @@
+{
+  "id": "03",
+  "slug": "logistic-regression-step",
+  "title": "逻辑回归",
+  "entrypoint": "logistic_regression_step",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 3
+}

@@ -1,0 +1,9 @@
+{
+  "id": "29",
+  "slug": "beam-search",
+  "title": "Beam Search",
+  "entrypoint": "beam_search",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 38
+}

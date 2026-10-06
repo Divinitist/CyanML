@@ -1,0 +1,9 @@
+{
+  "id": "37",
+  "slug": "autoregressive-generation",
+  "title": "自回归生成",
+  "entrypoint": "autoregressive_generate",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 39
+}

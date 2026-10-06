@@ -1,0 +1,9 @@
+{
+  "id": "30",
+  "slug": "moe-routing",
+  "title": "MoE 路由",
+  "entrypoint": "moe_route",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 31
+}

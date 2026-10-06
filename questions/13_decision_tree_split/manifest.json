@@ -1,0 +1,9 @@
+{
+  "id": "13",
+  "slug": "decision-tree-split",
+  "title": "决策树划分",
+  "entrypoint": "best_decision_tree_split",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 16
+}

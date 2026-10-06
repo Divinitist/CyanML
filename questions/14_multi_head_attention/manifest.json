@@ -1,0 +1,9 @@
+{
+  "id": "14",
+  "slug": "multi-head-attention",
+  "title": "Multi-Head Attention",
+  "entrypoint": "multi_head_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 26
+}

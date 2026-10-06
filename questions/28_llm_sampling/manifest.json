@@ -1,0 +1,9 @@
+{
+  "id": "28",
+  "slug": "llm-sampling",
+  "title": "LLM 采样",
+  "entrypoint": "sample_next_token",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 37
+}

@@ -1,0 +1,9 @@
+{
+  "id": "23",
+  "slug": "transformer-ffn",
+  "title": "Transformer FFN",
+  "entrypoint": "transformer_ffn",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 25
+}

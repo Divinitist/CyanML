@@ -1,0 +1,9 @@
+{
+  "id": "04",
+  "slug": "softmax-regression-step",
+  "title": "Softmax 多分类回归",
+  "entrypoint": "softmax_regression_step",
+  "library": "NumPy",
+  "difficulty": "基础",
+  "order": 5
+}

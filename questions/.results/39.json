@@ -1,0 +1,4745 @@
+{
+  "total": 100,
+  "passed": 100,
+  "failed": 0,
+  "duration_ms": 78.809,
+  "cases": [
+    {
+      "id": 1,
+      "name": "n=1, mode=0",
+      "input": [
+        {
+          "shape": [
+            1
+          ],
+          "values": [
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            1
+          ],
+          "values": [
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 2,
+      "name": "n=2, mode=1",
+      "input": [
+        {
+          "shape": [
+            2
+          ],
+          "values": [
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            2
+          ],
+          "values": [
+            1,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 3,
+      "name": "n=3, mode=2",
+      "input": [
+        {
+          "shape": [
+            3
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            3
+          ],
+          "values": [
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0,
+      "error": null
+    },
+    {
+      "id": 4,
+      "name": "n=4, mode=3",
+      "input": [
+        {
+          "shape": [
+            4
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            4
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.6666666666666666,
+      "passed": true,
+      "actual": 0.6666666666666666,
+      "error": null
+    },
+    {
+      "id": 5,
+      "name": "n=5, mode=4",
+      "input": [
+        {
+          "shape": [
+            5
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            5
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.3333333333333333,
+      "passed": true,
+      "actual": 0.3333333333333333,
+      "error": null
+    },
+    {
+      "id": 6,
+      "name": "n=6, mode=5",
+      "input": [
+        {
+          "shape": [
+            6
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            6
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 7,
+      "name": "n=7, mode=0",
+      "input": [
+        {
+          "shape": [
+            7
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            7
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 8,
+      "name": "n=8, mode=1",
+      "input": [
+        {
+          "shape": [
+            8
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            8
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 9,
+      "name": "n=9, mode=2",
+      "input": [
+        {
+          "shape": [
+            9
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            9
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 10,
+      "name": "n=10, mode=3",
+      "input": [
+        {
+          "shape": [
+            10
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            10
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.75,
+      "passed": true,
+      "actual": 0.75,
+      "error": null
+    },
+    {
+      "id": 11,
+      "name": "n=11, mode=4",
+      "input": [
+        {
+          "shape": [
+            11
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            11
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.3333333333333333,
+      "passed": true,
+      "actual": 0.3333333333333333,
+      "error": null
+    },
+    {
+      "id": 12,
+      "name": "n=12, mode=5",
+      "input": [
+        {
+          "shape": [
+            12
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            12
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 13,
+      "name": "n=13, mode=0",
+      "input": [
+        {
+          "shape": [
+            13
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            13
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 14,
+      "name": "n=14, mode=1",
+      "input": [
+        {
+          "shape": [
+            14
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            14
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 15,
+      "name": "n=15, mode=2",
+      "input": [
+        {
+          "shape": [
+            15
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            15
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 16,
+      "name": "n=16, mode=3",
+      "input": [
+        {
+          "shape": [
+            16
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            16
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6666666666666666,
+      "passed": true,
+      "actual": 0.6666666666666666,
+      "error": null
+    },
+    {
+      "id": 17,
+      "name": "n=17, mode=4",
+      "input": [
+        {
+          "shape": [
+            17
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            17
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.625,
+      "passed": true,
+      "actual": 0.625,
+      "error": null
+    },
+    {
+      "id": 18,
+      "name": "n=18, mode=5",
+      "input": [
+        {
+          "shape": [
+            18
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            18
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 19,
+      "name": "n=19, mode=0",
+      "input": [
+        {
+          "shape": [
+            19
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            19
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 20,
+      "name": "n=20, mode=1",
+      "input": [
+        {
+          "shape": [
+            20
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            20
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 21,
+      "name": "n=21, mode=2",
+      "input": [
+        {
+          "shape": [
+            21
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            21
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 22,
+      "name": "n=22, mode=3",
+      "input": [
+        {
+          "shape": [
+            22
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            22
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.625,
+      "passed": true,
+      "actual": 0.625,
+      "error": null
+    },
+    {
+      "id": 23,
+      "name": "n=23, mode=4",
+      "input": [
+        {
+          "shape": [
+            23
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            23
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5,
+      "passed": true,
+      "actual": 0.5,
+      "error": null
+    },
+    {
+      "id": 24,
+      "name": "n=24, mode=5",
+      "input": [
+        {
+          "shape": [
+            24
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            24
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 25,
+      "name": "n=25, mode=0",
+      "input": [
+        {
+          "shape": [
+            25
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            25
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 26,
+      "name": "n=26, mode=1",
+      "input": [
+        {
+          "shape": [
+            26
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            26
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 27,
+      "name": "n=27, mode=2",
+      "input": [
+        {
+          "shape": [
+            27
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            27
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 28,
+      "name": "n=28, mode=3",
+      "input": [
+        {
+          "shape": [
+            28
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            28
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6,
+      "passed": true,
+      "actual": 0.6,
+      "error": null
+    },
+    {
+      "id": 29,
+      "name": "n=29, mode=4",
+      "input": [
+        {
+          "shape": [
+            29
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            29
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.35714285714285715,
+      "passed": true,
+      "actual": 0.35714285714285715,
+      "error": null
+    },
+    {
+      "id": 30,
+      "name": "n=30, mode=5",
+      "input": [
+        {
+          "shape": [
+            30
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            30
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 31,
+      "name": "n=31, mode=0",
+      "input": [
+        {
+          "shape": [
+            31
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            31
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 32,
+      "name": "n=32, mode=1",
+      "input": [
+        {
+          "shape": [
+            32
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            32
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 33,
+      "name": "n=33, mode=2",
+      "input": [
+        {
+          "shape": [
+            33
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            33
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 34,
+      "name": "n=34, mode=3",
+      "input": [
+        {
+          "shape": [
+            34
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            34
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5531914893617021,
+      "passed": true,
+      "actual": 0.5531914893617021,
+      "error": null
+    },
+    {
+      "id": 35,
+      "name": "n=35, mode=4",
+      "input": [
+        {
+          "shape": [
+            35
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            35
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.4117647058823529,
+      "passed": true,
+      "actual": 0.4117647058823529,
+      "error": null
+    },
+    {
+      "id": 36,
+      "name": "n=36, mode=5",
+      "input": [
+        {
+          "shape": [
+            36
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            36
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 37,
+      "name": "n=37, mode=0",
+      "input": [
+        {
+          "shape": [
+            37
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            37
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 38,
+      "name": "n=38, mode=1",
+      "input": [
+        {
+          "shape": [
+            38
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            38
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 39,
+      "name": "n=39, mode=2",
+      "input": [
+        {
+          "shape": [
+            39
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            39
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 40,
+      "name": "n=40, mode=3",
+      "input": [
+        {
+          "shape": [
+            40
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            40
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5964912280701754,
+      "passed": true,
+      "actual": 0.5964912280701754,
+      "error": null
+    },
+    {
+      "id": 41,
+      "name": "n=41, mode=4",
+      "input": [
+        {
+          "shape": [
+            41
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            41
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.4888888888888889,
+      "passed": true,
+      "actual": 0.4888888888888889,
+      "error": null
+    },
+    {
+      "id": 42,
+      "name": "n=42, mode=5",
+      "input": [
+        {
+          "shape": [
+            42
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            42
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 43,
+      "name": "n=43, mode=0",
+      "input": [
+        {
+          "shape": [
+            43
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            43
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 44,
+      "name": "n=44, mode=1",
+      "input": [
+        {
+          "shape": [
+            44
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            44
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 45,
+      "name": "n=45, mode=2",
+      "input": [
+        {
+          "shape": [
+            45
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            45
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 46,
+      "name": "n=46, mode=3",
+      "input": [
+        {
+          "shape": [
+            46
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            46
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6470588235294118,
+      "passed": true,
+      "actual": 0.6470588235294118,
+      "error": null
+    },
+    {
+      "id": 47,
+      "name": "n=47, mode=4",
+      "input": [
+        {
+          "shape": [
+            47
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            47
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.43478260869565216,
+      "passed": true,
+      "actual": 0.43478260869565216,
+      "error": null
+    },
+    {
+      "id": 48,
+      "name": "n=48, mode=5",
+      "input": [
+        {
+          "shape": [
+            48
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            48
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 49,
+      "name": "n=49, mode=0",
+      "input": [
+        {
+          "shape": [
+            49
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            49
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 50,
+      "name": "n=50, mode=1",
+      "input": [
+        {
+          "shape": [
+            50
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            50
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 51,
+      "name": "n=51, mode=2",
+      "input": [
+        {
+          "shape": [
+            51
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            51
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 52,
+      "name": "n=52, mode=3",
+      "input": [
+        {
+          "shape": [
+            52
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            52
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6666666666666666,
+      "passed": true,
+      "actual": 0.6666666666666666,
+      "error": null
+    },
+    {
+      "id": 53,
+      "name": "n=53, mode=4",
+      "input": [
+        {
+          "shape": [
+            53
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            53
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.4727272727272727,
+      "passed": true,
+      "actual": 0.4727272727272727,
+      "error": null
+    },
+    {
+      "id": 54,
+      "name": "n=54, mode=5",
+      "input": [
+        {
+          "shape": [
+            54
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            54
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 55,
+      "name": "n=55, mode=0",
+      "input": [
+        {
+          "shape": [
+            55
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            55
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 56,
+      "name": "n=56, mode=1",
+      "input": [
+        {
+          "shape": [
+            56
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            56
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 57,
+      "name": "n=57, mode=2",
+      "input": [
+        {
+          "shape": [
+            57
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            57
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 58,
+      "name": "n=58, mode=3",
+      "input": [
+        {
+          "shape": [
+            58
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            58
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6966292134831461,
+      "passed": true,
+      "actual": 0.6966292134831461,
+      "error": null
+    },
+    {
+      "id": 59,
+      "name": "n=59, mode=4",
+      "input": [
+        {
+          "shape": [
+            59
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            59
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.41379310344827586,
+      "passed": true,
+      "actual": 0.41379310344827586,
+      "error": null
+    },
+    {
+      "id": 60,
+      "name": "n=60, mode=5",
+      "input": [
+        {
+          "shape": [
+            60
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            60
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 61,
+      "name": "n=61, mode=0",
+      "input": [
+        {
+          "shape": [
+            61
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            61
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 62,
+      "name": "n=62, mode=1",
+      "input": [
+        {
+          "shape": [
+            62
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            62
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 63,
+      "name": "n=63, mode=2",
+      "input": [
+        {
+          "shape": [
+            63
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            63
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 64,
+      "name": "n=64, mode=3",
+      "input": [
+        {
+          "shape": [
+            64
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            64
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.7572815533980582,
+      "passed": true,
+      "actual": 0.7572815533980582,
+      "error": null
+    },
+    {
+      "id": 65,
+      "name": "n=65, mode=4",
+      "input": [
+        {
+          "shape": [
+            65
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            65
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5172413793103449,
+      "passed": true,
+      "actual": 0.5172413793103449,
+      "error": null
+    },
+    {
+      "id": 66,
+      "name": "n=66, mode=5",
+      "input": [
+        {
+          "shape": [
+            66
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            66
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 67,
+      "name": "n=67, mode=0",
+      "input": [
+        {
+          "shape": [
+            67
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            67
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 68,
+      "name": "n=68, mode=1",
+      "input": [
+        {
+          "shape": [
+            68
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            68
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 69,
+      "name": "n=69, mode=2",
+      "input": [
+        {
+          "shape": [
+            69
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            69
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 70,
+      "name": "n=70, mode=3",
+      "input": [
+        {
+          "shape": [
+            70
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            70
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6274509803921569,
+      "passed": true,
+      "actual": 0.6274509803921569,
+      "error": null
+    },
+    {
+      "id": 71,
+      "name": "n=71, mode=4",
+      "input": [
+        {
+          "shape": [
+            71
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            71
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.375,
+      "passed": true,
+      "actual": 0.375,
+      "error": null
+    },
+    {
+      "id": 72,
+      "name": "n=72, mode=5",
+      "input": [
+        {
+          "shape": [
+            72
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            72
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 73,
+      "name": "n=73, mode=0",
+      "input": [
+        {
+          "shape": [
+            73
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            73
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 74,
+      "name": "n=74, mode=1",
+      "input": [
+        {
+          "shape": [
+            74
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            74
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 75,
+      "name": "n=75, mode=2",
+      "input": [
+        {
+          "shape": [
+            75
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            75
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 76,
+      "name": "n=76, mode=3",
+      "input": [
+        {
+          "shape": [
+            76
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            76
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.6181818181818182,
+      "passed": true,
+      "actual": 0.6181818181818182,
+      "error": null
+    },
+    {
+      "id": 77,
+      "name": "n=77, mode=4",
+      "input": [
+        {
+          "shape": [
+            77
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            77
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5542168674698795,
+      "passed": true,
+      "actual": 0.5542168674698795,
+      "error": null
+    },
+    {
+      "id": 78,
+      "name": "n=78, mode=5",
+      "input": [
+        {
+          "shape": [
+            78
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            78
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 79,
+      "name": "n=79, mode=0",
+      "input": [
+        {
+          "shape": [
+            79
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            79
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 80,
+      "name": "n=80, mode=1",
+      "input": [
+        {
+          "shape": [
+            80
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            80
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 81,
+      "name": "n=1, mode=2",
+      "input": [
+        {
+          "shape": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            1
+          ],
+          "values": [
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0,
+      "error": null
+    },
+    {
+      "id": 82,
+      "name": "n=2, mode=3",
+      "input": [
+        {
+          "shape": [
+            2
+          ],
+          "values": [
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            2
+          ],
+          "values": [
+            0,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.6666666666666666,
+      "passed": true,
+      "actual": 0.6666666666666666,
+      "error": null
+    },
+    {
+      "id": 83,
+      "name": "n=3, mode=4",
+      "input": [
+        {
+          "shape": [
+            3
+          ],
+          "values": [
+            0,
+            1,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            3
+          ],
+          "values": [
+            0,
+            0,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 84,
+      "name": "n=4, mode=5",
+      "input": [
+        {
+          "shape": [
+            4
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            4
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 85,
+      "name": "n=5, mode=0",
+      "input": [
+        {
+          "shape": [
+            5
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            5
+          ],
+          "values": [
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 86,
+      "name": "n=6, mode=1",
+      "input": [
+        {
+          "shape": [
+            6
+          ],
+          "values": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            6
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 87,
+      "name": "n=7, mode=2",
+      "input": [
+        {
+          "shape": [
+            7
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            7
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 88,
+      "name": "n=8, mode=3",
+      "input": [
+        {
+          "shape": [
+            8
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            8
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.6666666666666666,
+      "passed": true,
+      "actual": 0.6666666666666666,
+      "error": null
+    },
+    {
+      "id": 89,
+      "name": "n=9, mode=4",
+      "input": [
+        {
+          "shape": [
+            9
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            9
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.7272727272727273,
+      "passed": true,
+      "actual": 0.7272727272727273,
+      "error": null
+    },
+    {
+      "id": 90,
+      "name": "n=10, mode=5",
+      "input": [
+        {
+          "shape": [
+            10
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            10
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 91,
+      "name": "n=11, mode=0",
+      "input": [
+        {
+          "shape": [
+            11
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            11
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 92,
+      "name": "n=12, mode=1",
+      "input": [
+        {
+          "shape": [
+            12
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": false
+        },
+        {
+          "shape": [
+            12
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": false
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 93,
+      "name": "n=13, mode=2",
+      "input": [
+        {
+          "shape": [
+            13
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            13
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 94,
+      "name": "n=14, mode=3",
+      "input": [
+        {
+          "shape": [
+            14
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            14
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.7272727272727273,
+      "passed": true,
+      "actual": 0.7272727272727273,
+      "error": null
+    },
+    {
+      "id": 95,
+      "name": "n=15, mode=4",
+      "input": [
+        {
+          "shape": [
+            15
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            15
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.2857142857142857,
+      "passed": true,
+      "actual": 0.2857142857142857,
+      "error": null
+    },
+    {
+      "id": 96,
+      "name": "n=16, mode=5",
+      "input": [
+        {
+          "shape": [
+            16
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            16
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 97,
+      "name": "n=17, mode=0",
+      "input": [
+        {
+          "shape": [
+            17
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            17
+          ],
+          "values": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 1.0,
+      "passed": true,
+      "actual": 1.0,
+      "error": null
+    },
+    {
+      "id": 98,
+      "name": "n=18, mode=1",
+      "input": [
+        {
+          "shape": [
+            18
+          ],
+          "values": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            18
+          ],
+          "values": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 99,
+      "name": "n=19, mode=2",
+      "input": [
+        {
+          "shape": [
+            19
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            19
+          ],
+          "values": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.0,
+      "passed": true,
+      "actual": 0.0,
+      "error": null
+    },
+    {
+      "id": 100,
+      "name": "n=20, mode=3",
+      "input": [
+        {
+          "shape": [
+            20
+          ],
+          "values": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "truncated": true
+        },
+        {
+          "shape": [
+            20
+          ],
+          "values": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "truncated": true
+        }
+      ],
+      "expected": 0.5185185185185185,
+      "passed": true,
+      "actual": 0.5185185185185185,
+      "error": null
+    }
+  ],
+  "score": 100
+}

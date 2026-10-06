@@ -1,0 +1,9 @@
+{
+  "id": "18",
+  "slug": "sliding-window-attention",
+  "title": "Sliding-Window Attention",
+  "entrypoint": "sliding_window_attention",
+  "library": "NumPy",
+  "difficulty": "中等",
+  "order": 30
+}
